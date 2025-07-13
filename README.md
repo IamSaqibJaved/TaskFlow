@@ -1,13 +1,14 @@
-#TaskFlow - Modern Task Management App
+# **TaskFlow - Modern Task Management App**
 
-#A sleek, professional task management application built with React, TypeScript, and Material-UI featuring drag-and-drop functionality, dark/light themes, and smooth animations.
+# **A sleek, professional task management application built with React, TypeScript, and Material-UI featuring drag-and-drop functionality, dark/light themes, and smooth animations.**
 
-Prerequisites
+
+**Prerequisites**
 
 Node.js (version 16 or higher)
 npm or yarn package manager
 
-Installation
+**Installation**
 
 Clone the repository
 git clone <repository-url>
@@ -15,28 +16,28 @@ cd todo-app
 
 Install dependencies
 npm install
-# or
+**or**
 yarn install
 
 Install additional required packages
 npm install @hello-pangea/dnd uuid
 npm install uuid
-# or
+**or**
 yarn add @hello-pangea/dnd uuid
 yarn add uuid
 
 Start the development server
 npm run dev
-# or
+**or**
 yarn dev
 
 Build for production
 npm run build
-# or
+**or**
 yarn build
 
 
-✨ Features Implemented
+**✨ Features Implemented**
 
 ✅ Core Features (as per task requirements)
 ✅ Task List View
@@ -61,7 +62,7 @@ Fully responsive for mobile, tablet, and desktop
 
 Clean, consistent design with MUI components
 
-🌟 Bonus Features
+**🌟 Bonus Features**
 
 ✅ Dark/Light Theme Toggle
 
@@ -83,7 +84,7 @@ Filter tasks by: All / Completed / Pending
 
 Built using React functional components with TypeScript for safety
 
-🛠 Technologies Used
+**🛠 Technologies Used**
 
 React 18+
 
@@ -97,7 +98,7 @@ UUID for generating unique task IDs
 
 Vite for lightning-fast development
 
-🎨 Design Decisions & Trade-offs
+**🎨 Design Decisions & Trade-offs**
 
 Area	                                Decision/Trade-off
 
@@ -108,7 +109,7 @@ Theme Design	           Custom light/dark theme using MUI with gradients and gla
 Component Structure	       Reusable TaskItem, TaskForm, and Header components for clarity
 
 
-📂 Folder Structure
+**📂 Folder Structure**
 
 src/
 ├── components/          # TaskForm, TaskList, TaskItem, Header, etc.
@@ -116,3 +117,5 @@ src/
 ├── types/               # TypeScript interfaces (e.g. Task type)
 ├── App.tsx              # Root component with state and layout
 ├── main.tsx             # Entry point
+
+
