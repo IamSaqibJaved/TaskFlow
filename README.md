@@ -1,5 +1,6 @@
-TaskFlow - Modern Task Management App
-A sleek, professional task management application built with React, TypeScript, and Material-UI featuring drag-and-drop functionality, dark/light themes, and smooth animations.
+#TaskFlow - Modern Task Management App
+
+#A sleek, professional task management application built with React, TypeScript, and Material-UI featuring drag-and-drop functionality, dark/light themes, and smooth animations.
 
 Prerequisites
 
