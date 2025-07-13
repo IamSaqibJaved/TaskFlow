@@ -116,19 +116,28 @@ Vite for lightning-fast development
 Area	                                Decision/Trade-off
 
 Drag & Drop	               Only enabled when filter is set to "All" to avoid confusing UX
+
 Persistence	               Used localStorage for simplicity instead of setting up a backend
+
 Animations	               Used CSS transform for better performance (GPU-accelerated)
+
 Theme Design	           Custom light/dark theme using MUI with gradients and glassmorphism-style effects
+
 Component Structure	       Reusable TaskItem, TaskForm, and Header components for clarity
 
 
 **📂 Folder Structure**
 
 src/
+
 ├── components/          # TaskForm, TaskList, TaskItem, Header, etc.
+
 ├── theme/               # Light/dark theme config using MUI
+
 ├── types/               # TypeScript interfaces (e.g. Task type)
+
 ├── App.tsx              # Root component with state and layout
+
 ├── main.tsx             # Entry point
 
 
