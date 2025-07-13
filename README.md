@@ -15,25 +15,38 @@ git clone <repository-url>
 cd todo-app
 
 Install dependencies
-npm install
+npm install 
+
 **or**
+
 yarn install
 
 Install additional required packages
+
 npm install @hello-pangea/dnd uuid
+
 npm install uuid
+
 **or**
+
 yarn add @hello-pangea/dnd uuid
+
 yarn add uuid
 
 Start the development server
+
 npm run dev
+
 **or**
+
 yarn dev
 
 Build for production
+
 npm run build
+
 **or**
+
 yarn build
 
 
